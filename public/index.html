@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SASIYA AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">SASIYA AI</h1>
+    <div class="card">
+      <input type="text" id="videoUrl" placeholder="Paste TikTok or YouTube video link here" />
+      <button onclick="downloadVideo()">Download</button>
+      <p id="status"></p>
+      <hr />
+      <button onclick="loadTikTokPosts()">Load TikTok Posts</button>
+      <div class="posts" id="postsContainer"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
